@@ -18,10 +18,11 @@ FUNZIONE:
 - [x] RETURN -> treu / false
 
 3) ==Output==
-
 Se è vero allora è palindroma se è falso no.
 
 
+
+# ESERCIZIO 2
 ## Spiegazione Esercizio PARI e DISPARI
 
 Pari e Dispari
@@ -30,3 +31,17 @@ Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzion
 Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
+
+1) ==Raccolta Dati==
+Chiedere all' utente PARI/DISPARI e un numero da 1 a 5.
+Generare un numero Random da 1 a 5.
+
+2) ==Esecuzione Logica==
+FUNZIONE: 
+- [x] Sommare i due Numeri
+- [x] creiamo una **FUNZIONE** che capisce se la somma è pari o dispari
+
+3) ==Output==
+Dichiarare chi vince (se output della funzione è uguale a quanto inserito dall`utente)
+
+
