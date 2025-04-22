@@ -6,7 +6,7 @@ const stringa = "anna"
 let paolindromWorld = isPalindroma(stringa)
 
 if (paolindromWorld === false) {
-    console.log(`La parola ${stringa} non è palindorma`)
+    console.log(`La parola ${stringa} NON è palindorma`)
 } else if (paolindromWorld === true) {
     console.log(`La parola ${stringa} è palindorma`)
 }
@@ -15,7 +15,7 @@ if (paolindromWorld === false) {
 
 function isPalindroma(parola) {
 
-    let parolaAlContrario = ""
+    /* let parolaAlContrario = ""
 
     for (let i = 0; i < parola.length; i++) {
         parolaAlContrario = parolaAlContrario + parola[parola.length - 1 - i]
@@ -29,6 +29,14 @@ function isPalindroma(parola) {
             return false
         }
     }
+    return true; */  // con parola al CONTRARIO
+    for (let i = 0; i < Math.floor(parola.length / 2); i++) {
+
+        if(parola[i] !== parola [parola.length - 1 - i]){
+            return false;
+        }
+    }
+
     return true;
 
 }
