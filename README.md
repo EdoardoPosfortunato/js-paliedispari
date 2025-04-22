@@ -1,4 +1,5 @@
-## Spiegazione Esercizio
+# ESERCIZIO 1
+## Spiegazione Esercizio PALINDROMIA
 
 Palidroma
 Chiedere all’utente di inserire una parola
@@ -20,3 +21,12 @@ FUNZIONE:
 
 Se è vero allora è palindroma se è falso no.
 
+
+## Spiegazione Esercizio PARI e DISPARI
+
+Pari e Dispari
+L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+Sommiamo i due numeri
+Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
+Dichiariamo chi ha vinto.

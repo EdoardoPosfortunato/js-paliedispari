@@ -1,7 +1,7 @@
 // ESERCIZIO PALINDOROMO
 
-let stringa = prompt("Inserisci una Parola")
-// const stringa = "anna"
+// let stringa = prompt("Inserisci una Parola")
+const stringa = "anna"
 
 let paolindromWorld = isPalindroma(stringa)
 
